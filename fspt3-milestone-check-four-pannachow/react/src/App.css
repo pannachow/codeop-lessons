@@ -1,0 +1,23 @@
+h3 {
+  color: #81d8d0;
+  font-size: 20pt;
+}
+
+.todos {
+  list-style: none;
+}
+
+.todo span {
+  margin-left: 10px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+* {
+  font-family: monospace;
+  font-size: 12pt;
+  text-align: center;
+  margin-bottom: 20px;
+}

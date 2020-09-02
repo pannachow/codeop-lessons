@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- connect files to CSS -->
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <h1>MY PORTFOLIO</h1>
+  <!-- 3rd part -- Add a featured image section  -->
+  <div class="horizontal">
+    <div class="field">
+      <img id="featured-img" class="image" />
+    </div>
+
+    <div class="field">
+      <h2 id="fpt"></h2>
+      <p id="fpd"></p>
+    </div>
+  </div>
+
+  <!-- 2nd part -- insert img, url, description -->
+  <div id="images"></div>
+  <h2>ADD NEW PROJECT</h2>
+
+  <div class="horizontal">
+    <div class="field">
+      <label for="pt">Project Title</label>
+      <br>
+      <input id="pt" type="text" />
+    </div>
+
+    <div class="field">
+      <label for="url">Image URL</label>
+      <br>
+      <input id="url" type="text" />
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="pd">Project Description</label>
+    <br>
+    <textarea id="pd"></textarea>
+  </div>
+
+  <br>
+
+  <!-- button -->
+  <button id="submit" type="submit">SUBMIT</button>
+
+  <!-- connect files to javascript -->
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

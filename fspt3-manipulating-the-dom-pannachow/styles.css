@@ -1,0 +1,39 @@
+* {
+ font-family: monospace;
+}
+
+body {
+  background: white;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.image {
+  width: 100%;
+}
+
+input, textarea {
+  /* https://stackoverflow.com/q/16907518 */
+  box-sizing : border-box;
+  width: 100%;
+}
+
+.horizontal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.field {
+ text-align: left;
+ width: 100%;
+}

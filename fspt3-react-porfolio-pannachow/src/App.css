@@ -1,0 +1,63 @@
+.active {
+  background-color: yellow;
+  padding: 10px;
+}
+
+* {
+  font-family: monospace;
+  font-size: 16pt;
+}
+
+body {
+  background: white;
+  max-width: 1000px;
+  text-align: center;
+  margin: auto;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+textarea {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.horizontal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.field {
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-template-rows: 200px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button {
+  text-align: right;
+}
+
+#featured-img {
+  width: 100%;
+}
